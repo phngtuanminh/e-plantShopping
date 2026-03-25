@@ -83,7 +83,7 @@ Throughout the course, you'll build several hands-on projects:
 
 ## 👨‍💻 Author
 
-**Phong Tuan Minh**
+**Phan Nguyen Tuan Minh**
 - GitHub: [@phngtuanminh](https://github.com/phngtuanminh)
 
 ## 📄 License
