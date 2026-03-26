@@ -1,51 +1,52 @@
-# 🚀 Frontend Development with React
+# e-plantShopping
 
-A comprehensive course on building modern web applications using React.
+A React-based e-commerce plant shopping application built as part of a frontend development course.
 
-## 📖 Course Overview
+## Project Overview
 
-This course covers everything you need to know to build professional frontend applications with React — from core fundamentals to advanced patterns and best practices.
+**e-plantShopping** is a modern plant shop web application that allows users to browse a curated collection of houseplants, add them to a shopping cart, and manage their purchases — all in a seamless, responsive interface powered by React and Redux Toolkit.
 
-## 🎯 What You'll Learn
+## Features
 
-- React fundamentals: JSX, components, props, and state
-- React Hooks: useState, useEffect, useContext, useReducer, and custom hooks
-- Component lifecycle and rendering optimization
-- React Router for client-side navigation
-- State management with Context API and Redux Toolkit
-- Fetching and managing data with REST APIs
-- Styling with CSS Modules, Tailwind CSS, and styled-components
-- Testing React applications with Jest and React Testing Library
-- Deploying React apps to Vercel and Netlify
+- 🌿 Browse 18+ handpicked plant varieties across multiple categories
+- 🛒 Add, remove, and update quantities in the shopping cart
+- 💰 Real-time cart total and per-item cost calculation
+- 🔍 Filter plants by category and search by name
+- 📱 Fully responsive design for mobile and desktop
+- ⚡ State management with Redux Toolkit (CartSlice)
 
-## 🗂️ Course Structure
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| React 18 | UI library |
+| Vite | Build tool |
+| Redux Toolkit | State management |
+| React-Redux | Redux bindings |
+| CSS3 | Styling |
+
+## Project Structure
 
 ```
-📦 frontend-with-react
- ┣ 📂 01-introduction
- ┣ 📂 02-jsx-and-components
- ┣ 📂 03-state-and-props
- ┣ 📂 04-react-hooks
- ┣ 📂 05-routing
- ┣ 📂 06-state-management
- ┣ 📂 07-api-integration
- ┣ 📂 08-styling
- ┣ 📂 09-testing
- ┗ 📂 10-deployment
+e-plantShopping/
+ ┣ src/
+ ┃ ┣ components/
+ ┃ ┃ ┣ AboutUs.jsx
+ ┃ ┃ ┣ ProductList.jsx
+ ┃ ┃ ┗ CartItem.jsx
+ ┃ ┣ store/
+ ┃ ┃ ┗ CartSlice.jsx
+ ┃ ┣ App.jsx
+ ┃ ┗ App.css
+ ┗ README.md
 ```
 
-## 🛠️ Prerequisites
-
-- Basic knowledge of HTML, CSS, and JavaScript (ES6+)
-- Node.js (v18 or higher) installed
-- A code editor (VS Code recommended)
-
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/phngtuanminh/frontend-with-react.git
-   cd frontend-with-react
+   git clone https://github.com/phngtuanminh/e-plantShopping.git
+   cd e-plantShopping
    ```
 
 2. **Install dependencies**
@@ -58,34 +59,13 @@ This course covers everything you need to know to build professional frontend ap
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+4. Open your browser at `http://localhost:5173`
 
-## 🧰 Tech Stack
+## Author
 
-| Tool | Purpose |
-|------|---------|
-| React 18 | UI library |
-| Vite | Build tool |
-| React Router v6 | Routing |
-| Redux Toolkit | State management |
-| Tailwind CSS | Styling |
-| Axios | HTTP client |
-| Jest | Testing |
-
-## 📝 Projects
-
-Throughout the course, you'll build several hands-on projects:
-
-1. **Todo App** — Learn state management and CRUD operations
-2. **Weather App** — Practice API integration and data rendering
-3. **E-Commerce UI** — Build a full-featured shopping interface
-4. **Blog Platform** — Master routing and dynamic pages
-
-## 👨‍💻 Author
-
-**Phan Nguyen Tuan Minh**
+**Phong Tuan Minh**
 - GitHub: [@phngtuanminh](https://github.com/phngtuanminh)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
